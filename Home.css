@@ -1,0 +1,276 @@
+/* header */
+*{
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background: #f7f7f7;
+  height: 100px;
+  width: 100%;
+}
+img
+  {
+   padding: 0px 0px 0px 50px;
+   width: 200px;
+   height: 100px;
+   float: left;
+  }
+  h1.logo{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    line-height: 30px;
+    float: left;
+    padding:  35px 0px 0px 20px;
+    font-weight: bold;
+  }
+  nav li
+  {
+    float: Right;
+    padding: 35px 50px 0px 0px;
+  }
+  .button-container {
+    right: 0;
+    top: 45%;
+    transform: translateY(50%);
+  }
+  .button 
+  {
+    background-color:#0082e6;
+    border: none;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .button-container li a:hover{
+    background: #16921c;
+  }
+
+
+/* Navigation Bar*/
+
+.navigation ul
+{
+  float: left;
+  margin-right: 20px;
+  background-color: #4b5f64;
+  width: 100%;
+}
+.navigation ul li
+{
+  display: inline-block;
+  line-height: 37px;
+  margin: 0 39px;
+}
+.navigation li a
+{
+  color: rgb(7, 7, 7);
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.navigation li a.active,a:hover
+{
+  background: #f50909;
+  transition: .5s;
+}
+
+/*Sliding Information*/
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.marqueHold {
+  width: 100%;
+  overflow: hidden;
+}
+.marqueHold marquee {
+  width: 100%;
+  background: linear-gradient(to right, #FA4B37, #DF2771);
+  padding: 5px;
+  font-size: 18px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.marqueHold marquee span {
+  padding-right: 20px;
+}
+
+.image{
+  position: relative;
+  height: 800px;
+}
+
+.image::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url('modern.jpg')center center /cover no-repeat;
+}
+
+/*News*/
+
+.News {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.News li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.News li div {
+  width: 33.33%;
+  text-align: center;
+}
+
+.NEWS {
+  color: #0080ff;
+  font-weight: bold;
+  padding: 0px 150px 0px 0px; 
+}
+
+.NOTICE {
+  color: #ff8000;
+  font-weight: bold;
+  padding: 0px 0px 0px 200px;
+
+}
+
+.EVENTS {
+  color: #33cc33;
+  font-weight: bold;
+  padding: 0px 0px 0px 250px;
+}
+
+/*footer*/
+
+footer
+{
+  background-color: #35413d;
+  padding: 10px 0px ;
+  margin: 50px 0px 0px 0px;
+}
+
+.row {
+  flex:none;
+  display:flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+
+.footheading 
+{    
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0px 55px 0px 0px;    
+}
+.footer .single-widget
+{
+  margin-top: 15px;
+}
+.footer .useful-links ul li {
+  position: relative;
+  line-height: 30px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.Important
+{
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+ul, ul li 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .useful-links ul li
+{
+  position: relative;
+  line-height: 30px;
+  color: #fff;
+  font-size: 15px; 
+}
+
+.footer .useful-links ul li a {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: normal;
+}
+.footer .useful-links ul li a:hover {
+  text-decoration: underline;
+  background: #35413d;
+}
+.footer .useful-links ul li i {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contfooter {
+  background: #000000;
+  padding: 20px;
+  border-radius: 15px;
+  color: #fff;
+  float:right;
+}
+.contfootHead {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D96363;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}

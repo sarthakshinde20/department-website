@@ -1,0 +1,96 @@
+/* header */
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #f7f7f7;
+    height: 100px;
+    width: 100%;
+  }
+  img
+    {
+     padding: 0px 0px 0px 50px;
+     width: 200px;
+     height: 100px;
+     float: left;
+    }
+    h1.logo{
+      color: rgb(8, 8, 8);
+      font-size: 20px;
+      line-height: 30px;
+      float: left;
+      padding:  35px 0px 0px 20px;
+      font-weight: bold;
+    }
+    nav li
+    {
+      float: Right;
+      padding: 35px 50px 0px 0px;
+    }
+    .button-container {
+      right: 0;
+      top: 45%;
+      transform: translateY(50%);
+    }
+    .button 
+    {
+      background-color:#0082e6;
+      border: none;
+      color: rgb(7, 7, 7);
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+    .button-container li a:hover{
+      background: #16921c;
+    }
+  
+  
+  /* Navigation Bar*/
+  
+  .navigation ul
+  {
+    float: left;
+    margin-right: 20px;
+    background-color: #4b5f64;
+    width: 100%;
+  }
+  .navigation ul li
+  {
+    display: inline-block;
+    line-height: 37px;
+    margin: 0 39px;
+  }
+  .navigation li a
+  {
+    color: rgb(7, 7, 7);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  .navigation li a.active,a:hover
+  {
+    background: #f50909;
+    transition: .5s;
+  }
+
+h3
+{
+    font-family: Roboto;
+    font-size: medium;
+    margin: 45px;
+    padding-top: 25px;
+}
